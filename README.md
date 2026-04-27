@@ -14,7 +14,7 @@ This is one of a family of five templates that customise AI for the way you actu
 
 You don't have to do all five. The minimum useful set is **CLAUDE.md + COPY.md**. Add the others as you need them.
 
-They reference each other. CLAUDE.md mentions DESIGN.md and COPY.md via `@-imports` so AI knows to load them when relevant.
+They reference each other. Your CLAUDE.md tells AI to read the others when the relevant work comes up, so you do not have to think about which file is needed when.
 
 ## Why this exists
 
@@ -22,13 +22,26 @@ AI assistants have a default aesthetic and it's bad. Glassmorphism. Gradient bac
 
 A DESIGN.md is the brief that stops it.
 
-## Where this fits
+## Built on the work of others
 
-On 22 April 2026, Google Labs published an open `design.md` spec that's quickly becoming the convention. This template aligns with that spec and adds three things they don't:
+This template aligns with a forming standard, not invents one. If anything in here is good, the credit goes to:
 
-1. **Plain-English explanations** alongside the YAML, for non-technical owners who can't read design tokens
+- **[Google Labs](https://github.com/google-labs-code/design.md)** for publishing the open `design.md` spec on 22 April 2026. This template's structure follows that spec with a few additions.
+- **[Brad Frost](https://atomicdesign.bradfrost.com)** for Atomic Design, the philosophy that maps cleanly to tokens, components, patterns.
+- **[GOV.UK Design System](https://design-system.service.gov.uk)** for the gold standard in plain-language design documentation. The do/don't pattern and the audience-first writing came from there.
+- **[Shopify Polaris](https://polaris.shopify.com)** for the rationale-first writing pattern (always explain why, not just what).
+- **[Hardik Pandya](https://hvpandya.com/llm-design-systems)** for naming the failure mode I built around: unwired DESIGN.md files get ignored. The "wiring step" exists because of his article.
+- **[VoltAgent](https://github.com/VoltAgent/awesome-design-md)** for curating 69 brand examples that showed what works across many categories.
+
+What's mine is the non-tech-friendly framing, the "banned aesthetics" list with specific AI defaults, the conversational walk-through, and the integration with CLAUDE.md and COPY.md as a coherent family.
+
+## What this template adds to the Google Labs spec
+
+Three things they don't include:
+
+1. **Plain-English explanations** alongside the YAML (the bit at the top in `---` marks, machine-readable), for non-technical owners who can't read design tokens
 2. **A "banned aesthetics" list** that explicitly kills the generic-AI defaults
-3. **Wiring instructions**: most templates omit the step that actually makes the file get obeyed
+3. **Wiring instructions**: the line you add to your CLAUDE.md so AI actually reads DESIGN.md (most templates skip this step, which is why they get ignored)
 
 ## Who it's for
 
