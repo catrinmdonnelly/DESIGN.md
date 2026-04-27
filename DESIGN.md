@@ -112,7 +112,7 @@ components:
         in Apple's product pages" is useful.
      8. When you've worked through every section, output a CLEAN version:
         - Remove THIS instruction block (everything between the ═ lines above)
-        - Remove every other <!-- comment --> in the body, including the
+        - Remove every other HTML comment in the body, including the
           per-section explainer comments
         - Remove every # comment line inside the YAML frontmatter
         - Keep only the filled-in values and the section headings
