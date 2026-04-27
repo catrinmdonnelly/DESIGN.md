@@ -150,6 +150,6 @@ The best thinking I found while writing this:
 
 ## License
 
-MIT. Do whatever you want with it. Credit appreciated, not required.
+MIT.
 
-Made by [Catrin Donnelly](https://catrinmd.netlify.app), North Wales.
+Made by Catrin Donnelly.
