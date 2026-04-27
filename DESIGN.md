@@ -196,7 +196,7 @@ The references that calibrate everything else.
 <!-- The non-digital things that inform the feel. -->
 - **[Reference]:** [What it gives you. E.g. "Dieter Rams product photography: light as the hero, neutral background"]
 - **[Reference]:** [What it gives you. E.g. "Newsreader-set editorial pages: restraint with character"]
-- **[Reference]:** [What it gives you. E.g. "Welsh slate roofs: cool, considered, lasting"]
+- **[Reference]:** [What it gives you. E.g. "Brutalist concrete architecture: stark, considered, lasting"]
 
 ## Colour
 
