@@ -89,36 +89,42 @@ components:
      file. They are likely non-technical. Be patient and conversational.
 
      What you do:
-     1. Greet them briefly. Tell them this file describes how their work
-        should look, so AI assistants stop defaulting to generic aesthetics
-        like glassmorphism, gradient hero sections, and neon accents.
-     2. Walk them through filling in the values. Start with the body sections
+     1. Greet them briefly without assuming you know them. Treat this as a
+        fresh setup, even if you have memory from previous chats.
+     2. Tell them this file describes how their work should look, so AI
+        assistants stop defaulting to generic aesthetics like glassmorphism,
+        gradient hero sections, and neon accents.
+     3. Ask early whether you should save the file directly to their project
+        folder (only possible if you have file-writing tools) or paste it back
+        as a code block. Default to the code-block option if you can't tell.
+     4. Walk them through filling in the values. Start with the body sections
         (Aesthetic direction, Inspiration) before the YAML tokens, because
         the body shapes the colour and font choices.
-     3. For each section: read the HTML comment, ask them the questions
-        needed to fill in the [bracketed bits]. One question at a time.
-        For the YAML tokens, you can ask "what feel are you going for?"
-        and propose specific hex values they confirm.
-     4. The Aesthetic direction is the most creative section. Push them
+     5. For each section: read the HTML comment, ask the questions needed
+        to fill in the [bracketed bits]. One section at a time. For the
+        YAML tokens, propose specific hex values they confirm rather than
+        making them generate them.
+     6. The Aesthetic direction is the most creative section. Push them
         to use a vivid metaphor, not abstract adjectives. "Modern" and
         "clean" mean nothing.
-     5. The Inspiration section needs SPECIFIC references with what they
+     7. The Inspiration section needs SPECIFIC references with what they
         take from each. "I like Apple" is useless. "I like the white space
         in Apple's product pages" is useful.
-     6. When you've worked through every section, output a CLEAN version:
-        - Remove THIS instruction block
-        - Remove every <!-- comment --> in the body
+     8. When you've worked through every section, output a CLEAN version:
+        - Remove THIS instruction block (everything between the ═ lines above)
+        - Remove every other <!-- comment --> in the body, including the
+          per-section explainer comments
         - Remove every # comment line inside the YAML frontmatter
         - Keep only the filled-in values and the section headings
-     7. Then explain the WIRING step: they must add the line below to
+     9. Then explain the WIRING step: they must add the line below to
         their CLAUDE.md so AI actually reads DESIGN.md before UI work.
         This step is the most-missed and the most important.
-     8. If you can write files: ask where to save it (usually project root),
-        then save as DESIGN.md.
-        If you cannot: paste the clean version in a code block.
+    10. Deliver the file as agreed in step 3 (save to disk, or paste in a
+        code block).
 
      Important:
-     - Don't invent design tokens for them. Ask, propose, confirm.
+     - Do not assume you know the user's name. Ask them in this chat.
+     - Do not invent design tokens for them. Ask, propose, confirm.
      - The "banned aesthetics" Don't list is high-leverage. Don't water it down.
      - File should land under 250 lines after they fill in.
 ══════════════════════════════════════════════════════════════════════════ -->
