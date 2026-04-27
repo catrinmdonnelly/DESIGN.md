@@ -28,7 +28,6 @@ This template aligns with a forming standard, not invents one. If anything in he
 
 - **[Google Labs DESIGN.md spec](https://github.com/google-labs-code/design.md)** published 22 April 2026. This template's structure follows that spec with a few additions.
 - **[Brad Frost: Atomic Design](https://atomicdesign.bradfrost.com)** for the philosophy that maps cleanly to tokens, components, patterns.
-- **[GOV.UK Design System](https://design-system.service.gov.uk)** for the gold standard in plain-language design documentation. The do/don't pattern and the audience-first writing came from there.
 - **[Shopify Polaris](https://polaris.shopify.com)** for the rationale-first writing pattern (always explain why, not just what).
 - **[Hardik Pandya: "Expose your design system to LLMs"](https://hvpandya.com/llm-design-systems)** for naming the failure mode I built around: unwired DESIGN.md files get ignored. The "wiring step" exists because of his article.
 - **[VoltAgent's awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** for curating brand examples that showed what works across many categories.
