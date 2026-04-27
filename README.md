@@ -26,12 +26,12 @@ A DESIGN.md is the brief that stops it.
 
 This template aligns with a forming standard, not invents one. If anything in here is good, the credit goes to:
 
-- **[Google Labs](https://github.com/google-labs-code/design.md)** for publishing the open `design.md` spec on 22 April 2026. This template's structure follows that spec with a few additions.
-- **[Brad Frost](https://atomicdesign.bradfrost.com)** for Atomic Design, the philosophy that maps cleanly to tokens, components, patterns.
+- **[Google Labs DESIGN.md spec](https://github.com/google-labs-code/design.md)** published 22 April 2026. This template's structure follows that spec with a few additions.
+- **[Brad Frost: Atomic Design](https://atomicdesign.bradfrost.com)** for the philosophy that maps cleanly to tokens, components, patterns.
 - **[GOV.UK Design System](https://design-system.service.gov.uk)** for the gold standard in plain-language design documentation. The do/don't pattern and the audience-first writing came from there.
 - **[Shopify Polaris](https://polaris.shopify.com)** for the rationale-first writing pattern (always explain why, not just what).
-- **[Hardik Pandya](https://hvpandya.com/llm-design-systems)** for naming the failure mode I built around: unwired DESIGN.md files get ignored. The "wiring step" exists because of his article.
-- **[VoltAgent](https://github.com/VoltAgent/awesome-design-md)** for curating 69 brand examples that showed what works across many categories.
+- **[Hardik Pandya: "Expose your design system to LLMs"](https://hvpandya.com/llm-design-systems)** for naming the failure mode I built around: unwired DESIGN.md files get ignored. The "wiring step" exists because of his article.
+- **[VoltAgent's awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** for curating brand examples that showed what works across many categories.
 
 What's mine is the non-tech-friendly framing, the "banned aesthetics" list with specific AI defaults, the conversational walk-through, and the integration with CLAUDE.md and COPY.md as a coherent family.
 
@@ -126,20 +126,6 @@ This is the highest-leverage section. The current AI defaults that this list is 
 - Em dashes in copy and labels
 
 Edit the list to match your brand. The act of writing it down is what makes it stick.
-
-## References
-
-The best thinking I found while writing this:
-
-- [Google Labs DESIGN.md spec](https://github.com/google-labs-code/design.md): the canonical format (Apache 2.0, the de facto standard as of April 2026)
-- [Stitch DESIGN.md format docs](https://stitch.withgoogle.com/docs/design-md/format/): how the spec is structured
-- [VoltAgent awesome-design-md](https://github.com/VoltAgent/awesome-design-md): 69 brand examples to learn from
-- [Hardik Pandya: Expose your design system to LLMs](https://hvpandya.com/llm-design-systems): failure modes and the three-layer token system
-- [buildthisnow.com: DESIGN.md for Claude Code](https://www.buildthisnow.com/blog/guide/mechanics/design-md-claude-code): the reference-vs-constraint distinction
-- [Brad Frost: Atomic Design](https://atomicdesign.bradfrost.com): the philosophy that maps cleanly to tokens, components, patterns
-- [GOV.UK Design System](https://design-system.service.gov.uk): best-in-class plain-language section structure for non-technical readers
-- [Shopify Polaris](https://polaris.shopify.com): rationale-first writing pattern
-- [Tailwind theme docs](https://tailwindcss.com/docs/theme): DESIGN.md tokens map cleanly to `tailwind.config`
 
 ## Pair this with
 
