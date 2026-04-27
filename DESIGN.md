@@ -105,6 +105,10 @@ components:
           end as a code block for you to save."
         Stop there. Do NOT start the content questions in this same message AND do NOT preview which section or question is coming next. Wait for them to reply first.
 
+     SELF-CHECK BEFORE DELIVERY: before producing the clean output, run a final pass. Apply the file's own rules to the filled-in content: scan for em dashes (the user's verbatim answers may contain them) and rewrite as commas or full stops, scan for any banned phrases the file itself defines, check headings are sentence case, and check the file does not violate the rules it teaches. The file must obey itself.
+
+     CODE-BLOCK DELIVERY: when delivering as a code block in chat, wrap the whole file in a four-backtick fence (````) instead of three (```), because the file contains inner triple-backtick code blocks (file tree, wiring line) that would otherwise break the outer fence.
+
      2. WALK THROUGH (turn 2 onwards). Fill in the body sections in this
         order: Product context, Aesthetic direction, Inspiration, Colour,
         Typography, Spacing, Layout, Shape and elevation, Motion, Components,
@@ -315,8 +319,10 @@ Defined in frontmatter. Each component references tokens, not raw values.
 ## Decisions log
 
 <!-- Date-stamped record of changes. Future-you needs to know why the
-     radius is 4px and not 6px. Yearly review at minimum. -->
+     radius is 4px and not 6px. Yearly review at minimum.
+     On first save, fill the first row with today's date and "Initial system"
+     as the change. Future entries get added on top. -->
 
 | Date | Change | Why |
 |------|--------|-----|
-| [YYYY-MM-DD] | [What changed] | [Why it changed] |
+| [Today's date, YYYY-MM-DD] | Initial system | [One-line summary of the aesthetic and palette choice. E.g. "Linen-and-ink palette, Newsreader/Inter, oxblood accent. Restrained editorial feel for a writing-first product."] |
